@@ -17,7 +17,7 @@ Features:
     • Beautiful Design.
 	• Flexible Configuration.
 	• Support WaterFall, BungeeCord.
-        • Toggle or Disable CustomCommands.
+    • Toggle or Disable CustomCommands.
         • Easy CustomCommand Constructor.
         • Creating CustomCommands.
 	• All Customizable.
