@@ -1,0 +1,69 @@
+# ░██╗░░░░░░░██╗░█████╗░████████╗███████╗██████╗░░██████╗░█████╗░░█████╗░██╗░█████╗░██╗░░░░░░██████╗
+# ░██║░░██╗░░██║██╔══██╗╚══██╔══╝██╔════╝██╔══██╗██╔════╝██╔══██╗██╔══██╗██║██╔══██╗██║░░░░░██╔════╝
+# ░╚██╗████╗██╔╝███████║░░░██║░░░█████╗░░██████╔╝╚█████╗░██║░░██║██║░░╚═╝██║███████║██║░░░░░╚█████╗░
+# ░░████╔═████║░██╔══██║░░░██║░░░██╔══╝░░██╔══██╗░╚═══██╗██║░░██║██║░░██╗██║██╔══██║██║░░░░░░╚═══██╗
+# ░░╚██╔╝░╚██╔╝░██║░░██║░░░██║░░░███████╗██║░░██║██████╔╝╚█████╔╝╚█████╔╝██║██║░░██║███████╗██████╔╝
+# ░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░╚════╝░╚═╝╚═╝░░╚═╝╚══════╝╚═════╝░
+
+#WaterSocials - BungeeCord CustomCommands (Socials Example) System
+#Support - https://github.com/RDProjectOfficial
+
+#Settings
+Prefix: "§8• §bWaterSocials §8× "
+NoPermission: "§bYou do not have permission!"
+
+#Permissions
+Permissions:
+  socials: WaterSocials.SocialsCommand
+  one: WaterSocials.OneCommand
+  two: WaterSocials.TwoCommand
+  three: WaterSocils.ThreeCommand
+  four: WaterSocials.FourCommand
+  five: WaterSocials.FiveCommand
+
+#Title of /socials Command
+SocialsCommandTitle: "    §8• §bSocials §8•"
+
+#Looks like §8× NameofyourCommand in /socials
+SocialsCommandDesign: "§8× "
+
+#Enabling Custom Socials Commands Module
+ToggleCommands:
+  one: true
+  two: true
+  three: true
+  four: true
+  five: true
+
+#Name of Custom Commands
+SocialCommands:
+  one: discord
+  two: telegram
+  three: info
+  four: github
+  five: donationalerts
+
+#Social Message like - Player write /discord, and him show text "Discord - URL"
+SocialMessages:
+  one: "§7Our Discord"
+  two: "§7Our Telegram"
+  three: "§7Info"
+  four: "§7Our GitHub"
+  five: "§7Our DonationAlerts"
+
+#URL of Social, For Example discord - discord.gg/servername
+SocialURLs:
+  one: "https://servername.com/discord"
+  two: "https://servername.com/tg"
+  three: "https://servername.com/info"
+  four: "https://github.com/RDProjectOfficial"
+  five: "https://www.donationalerts.com/r/rdattack"
+
+#List of Aliases, you can use for one-five custom commands
+SocialAliases:
+  socials: "media"
+  one: "dc"
+  two: "tg"
+  three: "inf"
+  four: "git"
+  five: "dalerts"
