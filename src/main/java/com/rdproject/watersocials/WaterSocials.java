@@ -38,7 +38,7 @@ public class WaterSocials extends Plugin {
         LoadCMDs();
         getLogger().info(STARTUP_MESSAGE);
 
-        UpdateChecker updateChecker = new UpdateChecker(this, 99826);
+        UpdateChecker updateChecker = new UpdateChecker(this, 100029);
         try {
             if (updateChecker.checkForUpdates()) {
                 getLogger().info(LIST);
