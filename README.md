@@ -14,7 +14,7 @@ Commands:
 Features:
 
 	• BungeeCord Plugin
-      • Beautiful Design.
+    • Beautiful Design.
 	• Flexible Configuration.
 	• Support WaterFall, BungeeCord.
         • Toggle or Disable CustomCommands.
