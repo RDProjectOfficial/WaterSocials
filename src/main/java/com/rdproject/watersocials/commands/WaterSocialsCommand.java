@@ -9,7 +9,7 @@ import net.md_5.bungee.api.plugin.*;
 public class WaterSocialsCommand extends Command {
 
     public WaterSocialsCommand() {
-        super("watersocials", "WaterSocials.DevCommand", "watersoc, dev");
+        super("watersocials", "", "watersoc, dev");
     }
 
     @Override
